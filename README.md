@@ -23,8 +23,10 @@
 
 ![GitHub Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Manuu42&theme=tokyonight)
 
+<!--
+Descomentar cuando el deploy funcione
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Manuu42&layout=compact&theme=tokyonight)
-
+-->
 ---
 
 ## 📫 Contacto
