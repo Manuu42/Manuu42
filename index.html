@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emanuel-Dev/Web</title>
+<meta name="description" content="Portfolio de Emanuel, desarrollador web full stack especializado en PHP y sistemas web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <span><span class="prompt-tag">~/</span>emanuel</span>
+    <nav>
+      <a href="#about">about</a>
+      <a href="#proyectos">proyectos</a>
+      <a href="#contacto">contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" id="top">
+    <div class="avatar">
+      <img src="assets/formal_me.png" alt="Foto de perfil de Emanuel">
+    </div>
+    <div class="hero-text">
+      <div class="eyebrow" data-text="emanuel@portfolio:~$ whoami"></div>
+      <h1>Desarrollo <span class="accent">sitios y sistemas web.</span></h1>
+      <p class="lede">
+        Desarrollo sistemas web con <strong>HTMl</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>,  <strong>PHP</strong> y <strong>MySQL</strong>. 
+        Me encargo del ciclo completo: desde la arquitectura de base de datos hasta la interfaz 
+        que usa el cliente, siempre pensando en lógica robusta y código mantenible.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-ghost" href="#contacto">Contactarme</a>
+      </div>
+    </div>
+  </section>
+
+<!-- 
+======================================================
+                ACERCA DE MI
+======================================================
+-->
+
+  <section id="about" class="about">
+    <div class="section-label">cat about.md</div>
+    <h2 class="section-title">Sobre mí</h2>
+    <p>
+      Soy desarrollador web full stack con +3 años de experiencia, manejo interfaces cuidadas en el frontend. Trabajo pensando en proyectos propios como freelance y como tambien en colaboración, buscando construir soluciones web sólidas que resuelvan problemas reales.
+      
+    </p>
+    <div class="stack-list">
+      <span>HTML &amp; CSS</span>
+      <span>JavaScript</span>
+      <span>PHP</span>
+      <span>MySQL</span>
+      <span>Bootstrap</span>
+      <span>Git &amp; GitHub</span>
+    </div>
+  </section>
+
+
+<!-- 
+======================================================
+                PROYECTOS
+======================================================
+-->
+  <section id="proyectos">
+    <div class="section-label">ls proyectos/</div>
+    <h2 class="section-title">Proyectos</h2>
+
+    <div class="project">
+      <img src="assets/gestion_bilio.jpeg" alt="Captura de GB" class="project-image">
+      <div class="project-content">
+        <div class="project-head">
+          <h3>Gestión Bibliotecaria</h3>
+          <span class="project-tag">WEB</span>
+        </div>
+        <p>
+          Sistema de gestión de biblioteca en PHP con autenticación segura, el proyecto fue realizado para la administracion de la biblioteca publica de la ciudad <b>Arrecifes</b>.
+        </p>
+        <div class="project-meta">
+          <span>PHP</span><span>MySQL</span><span>CSS</span><span>Git Flow</span>
+          <a class="project-link" href="https://github.com/Manuu42/gestion-bibliotecaria" target="_blank" rel="noopener">Ver proyecto →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="assets/act-img.png" alt="Captura de ACT - WEB" class="project-image">
+      <div class="project-content">
+        <div class="project-head">
+          <h3>ACT - WEB</h3>
+          <span class="project-tag">WEB</span>
+        </div>
+        <p>
+          Sitio web para <b>AlarmCamTech</b> (2023) presentando su línea de sistemas de alarmas y cámaras de seguridad. Diseño responsivo y optimizado para conversión de clientes.
+        </p>
+        <div class="project-meta">
+          <span>HTML</span><span>CSS</span>
+          <a class="project-link" href="https://guileless-syrniki-e5b4ae.netlify.app/" target="_blank" rel="noopener">Ver proyecto →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="assets/blackjack.png" alt="Captura del BlackJack" class="project-image">
+      <div class="project-content">
+        <div class="project-head">
+          <h3>BlackJack</h3>
+          <span class="project-tag">WEB</span>
+        </div>
+        <p>
+          Implementación del clásico juego de BlackJack con JavaScript puro.
+          Gestión de estado del juego, cálculo automático de puntuaciones y UI responsiva.
+        </p>
+        <div class="project-meta">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <a class="project-link" href="https://phenomenal-granita-4b39b7.netlify.app/" target="_blank" rel="noopener">Ver proyecto →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="project">
+      <img src="[ruta de la imagen]" alt="nombre descriptivo" class="project-image">
+      <div class="project-content">
+        <div class="project-head">
+          <h3>[nombre del proyecto]</h3>
+          <span class="project-tag">[donde fue desarrollado el proyecto]</span>
+        </div>
+        <p>
+          [descripcion del proyecto]
+        </p>
+        <div class="project-meta">
+          <span>[herramientas utilizadas]</span><span>[mas herramientas]</span>
+          <a class="project-link" href="https://github.com/Manuu42/" target="_blank" rel="noopener">Ver proyecto →</a>
+        </div>
+      </div>
+    </div -->
+    
+<!-- 
+======================================================
+                MAS PROYECTOS?...
+======================================================
+-->
+
+  <div class="reveal-more">
+    <button class="reveal-more-btn">+ Proyectos en desarrollo</button>
+    <div class="reveal-more-content">
+      <p>Estoy trabajando en nuevos proyectos. <a href="#contacto">Contactame para saber más</a></p>
+    </div>
+  </div>
+
+<!-- 
+======================================================
+                CONTACTO
+======================================================
+-->
+
+<section id="contacto" class="contact">
+    <div class="section-label">cat contacto.md</div>
+    <h2 class="section-title">Hablemos</h2>
+    <p>
+      Disponible para proyectos freelance y colaboraciones en desarrollo web.
+    </p>
+    <div class="contact-links">
+      <a href="mail:mrpacmanu@gmail.com"><span class="k">email</span> mrpacmanu@gmail.com</a>
+      <a href="https://github.com/Manuu42" target="_blank" rel="noopener"><span class="k">github</span> github.com/Manuu42</a>
+      <a href="#" target="_blank" rel="noopener"><span class="k">linkedin</span> linkedin.com/in/mrpacmanu</a>
+    </div>
+  </section>
+
+  
+</main>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> Emanuel</span>
+  <span>hecho con HTML, CSS y JS</span>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
