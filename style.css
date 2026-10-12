@@ -81,8 +81,8 @@ header.topbar{
 .hero-text{flex:1 1 380px; min-width:280px;}
 
 .avatar{
-  width:112px;
-  height:112px;
+  width: 200px;
+  height: 200px;
   border-radius:50%;
   border:1px solid var(--line);
   overflow:hidden;
